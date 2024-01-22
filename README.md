@@ -18,8 +18,8 @@
 
 导出功能
 
-![image-20240122180031048](D:\编译器\Java\FxTest\image\image-20240122180031048.png)
+![image-20240122180031048]([D:\编译器\Java\FxTest\image\image-20240122180031048.png](https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/image-20240122180031048.jpg))
 
 ​                    导出样式
 
-![image-20240122175906768](D:\编译器\Java\FxTest\image\image-20240122175906768.png)
+![image-20240122175906768]([D:\编译器\Java\FxTest\image\image-20240122175906768.png](https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/image-20240122175906768.png.jpg)https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/image-20240122175906768.png.jpg)
