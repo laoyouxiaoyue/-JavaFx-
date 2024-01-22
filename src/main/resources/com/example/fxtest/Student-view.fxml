@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="784.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxtest.StudentController">
+   <children>
+      <TreeView fx:id="tv" layoutX="-2.0" prefHeight="784.0" prefWidth="200.0" />
+      <AnchorPane fx:id="ap" layoutX="197.0" layoutY="-1.0" prefHeight="784.0" prefWidth="787.0">
+         <children>
+            <TableView fx:id="StudentTable" layoutX="32.0" layoutY="211.0" prefHeight="476.0" prefWidth="678.0" style="-fx-text-fill: white;" />
+            <Button fx:id="Add" layoutX="43.0" layoutY="698.0" mnemonicParsing="false" onAction="#OnAdd" prefHeight="50.0" prefWidth="122.0" style="-fx-background-color: rgb(244,244,244);" />
+            <Button fx:id="Remove" layoutX="249.0" layoutY="698.0" mnemonicParsing="false" onAction="#OnRemove" prefHeight="50.0" prefWidth="122.0" style="-fx-background-color: rgb(244,244,244);" />
+            <Button fx:id="Change" layoutX="432.0" layoutY="698.0" mnemonicParsing="false" onAction="#OnChange" prefHeight="50.0" prefWidth="122.0" style="-fx-background-color: rgb(244,244,244);" />
+            <TextField fx:id="SearchSno" layoutX="87.0" layoutY="99.0" prefHeight="31.0" prefWidth="214.0" />
+            <Button fx:id="Check" layoutX="529.0" layoutY="148.0" mnemonicParsing="false" onAction="#OnCheck" prefHeight="50.0" prefWidth="122.0" style="-fx-background-color: rgb(244,244,244);" />
+            <Button fx:id="F5" layoutX="599.0" layoutY="698.0" mnemonicParsing="false" onAction="#OnF5" prefHeight="50.0" prefWidth="122.0" style="-fx-background-color: rgb(244,244,244);" />
+            <Label fx:id="time" layoutX="545.0" layoutY="749.0" prefHeight="21.0" prefWidth="200.0" />
+            <Button fx:id="information" layoutX="719.0" layoutY="14.0" mnemonicParsing="false" onAction="#Oninformation" prefHeight="21.0" prefWidth="23.0" style="-fx-background-color: #f3f3f3;" />
+            <TextField fx:id="SearchSno2" layoutX="376.0" layoutY="99.0" prefHeight="31.0" prefWidth="214.0" />
+            <Label fx:id="ZhuLabel" layoutX="43.0" layoutY="107.0" text="编号" />
+            <Label fx:id="CiLabel" layoutX="316.0" layoutY="107.0" text="姓名" />
+            <Button fx:id="DaoChu" layoutX="714.0" layoutY="664.0" mnemonicParsing="false" onAction="#OnDaoChu" style="-fx-background-color: #f3f3f3;" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="187.0" fitWidth="200.0" layoutX="4.0" layoutY="597.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SuCai/科大LOGO.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Next" layoutX="98.0" layoutY="497.0" mnemonicParsing="false" onAction="#OnNext" prefHeight="42.0" prefWidth="55.0" style="-fx-background-color: rgb(255,255,255);" />
+      <Button fx:id="Music" layoutX="25.0" layoutY="497.0" mnemonicParsing="false" onAction="#OnMusic" prefHeight="42.0" prefWidth="55.0" style="-fx-background-color: rgb(255,255,255);" />
+   </children>
+</Pane>

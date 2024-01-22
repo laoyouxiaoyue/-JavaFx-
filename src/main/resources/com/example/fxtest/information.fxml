@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="564.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxtest.ChangeInformation">
+   <children>
+      <Label layoutX="34.0" layoutY="129.0" prefHeight="21.0" prefWidth="50.0" text="用户名">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="178.0" text="原始密码">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="229.0" text="出生日期">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="278.0" text="手机号码">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="322.0" text="电子邮箱">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="114.0" layoutY="129.0" prefHeight="23.0" prefWidth="186.0" />
+      <TextField fx:id="phone" layoutX="115.0" layoutY="277.0" prefHeight="23.0" prefWidth="186.0" />
+      <TextField fx:id="email" layoutX="115.0" layoutY="322.0" prefHeight="23.0" prefWidth="186.0" />
+      <Button fx:id="Submit" layoutX="123.0" layoutY="499.0" mnemonicParsing="false" onAction="#OnSubmit" prefHeight="43.0" prefWidth="84.0" style="-fx-background-color: #f4f4f4;" />
+      <DatePicker fx:id="birth" layoutX="114.0" layoutY="228.0" />
+      <ImageView fitHeight="62.0" fitWidth="210.0" layoutX="60.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SuCai/个人信息.png" />
+         </image></ImageView>
+      <PasswordField fx:id="mima1" layoutX="114.0" layoutY="363.0" prefHeight="23.0" prefWidth="186.0" />
+      <PasswordField fx:id="miam2" layoutX="114.0" layoutY="416.0" prefHeight="23.0" prefWidth="186.0" />
+      <Label layoutX="35.0" layoutY="416.0" text="旧密码">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="363.0" text="新密码">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="mima" layoutX="114.0" layoutY="178.0" prefHeight="23.0" prefWidth="186.0" />
+      <Text fx:id="information1" layoutX="114.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="186.0" />
+      <Text fx:id="information2" layoutX="114.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="186.0" />
+      <Text fx:id="information3" layoutX="114.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="186.0" />
+      <Text fx:id="information4" layoutX="114.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="186.0" />
+      <Text fx:id="information5" layoutX="114.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="186.0" />
+      <Text fx:id="information6" layoutX="114.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="186.0" />
+      <TextField fx:id="KaMi" layoutX="115.0" layoutY="460.0" prefHeight="23.0" prefWidth="186.0" />
+      <Text layoutX="26.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="邀请码(选填)" />
+   </children>
+</AnchorPane>

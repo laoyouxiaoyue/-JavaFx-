@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="688.0" prefWidth="882.0" style="-fx-background-color: rgb(27,34,55); -fx-backgroune-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxtest.MainController">
+   <children>
+      <TextField fx:id="zh" layoutX="458.0" layoutY="295.0" prefHeight="62.0" prefWidth="368.0" promptText="请输入用户名" style="-fx-background-color: rgb(41,47,76); -fx-text-fill: white; -fx-border-width: 0 0 3 0; -fx-border-color: rgb(141,141,141);">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Button fx:id="submit" layoutX="449.0" layoutY="559.0" mnemonicParsing="false" onAction="#OnSubmit" prefHeight="62.0" prefWidth="225.0" style="-fx-background-color: rgb(0,112,255); -fx-backgroune-radius: 50;" text="登录" textFill="#faf5f5">
+         <font>
+            <Font size="23.0" />
+         </font></Button>
+      <Button fx:id="register" layoutX="703.0" layoutY="559.0" mnemonicParsing="false" onAction="#OnRegister" prefHeight="62.0" prefWidth="123.0" style="-fx-background-color: rgb(41,47,76);" text="注册" textFill="#fffefe">
+         <font>
+            <Font size="23.0" />
+         </font></Button>
+      <Label layoutX="-263.0" layoutY="400.0" prefHeight="72.0" prefWidth="254.0" text="文帅学生管理系统" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Segoe UI Symbol" size="30.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="mm" layoutX="457.0" layoutY="392.0" prefHeight="62.0" prefWidth="368.0" promptText="请输入密码" style="-fx-background-color: rgb(41,47,76); -fx-border-color: rgb(141,141,141); -fx-border-width: 0 0 3 0; -fx-text-fill: white;">
+         <font>
+            <Font size="16.0" />
+         </font></PasswordField>
+      <ImageView fitHeight="112.0" fitWidth="335.0" layoutX="470.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SuCai/LOGO.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="102.0" layoutX="441.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SuCai/科大LOGO.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="123.0" layoutX="713.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SuCai/文帅LOGO.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="466.0" fitWidth="410.0" layoutX="14.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SuCai/火箭发射.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="yzm" fitHeight="62.0" fitWidth="152.0" layoutX="674.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="yzms" layoutX="457.0" layoutY="471.0" prefHeight="62.0" prefWidth="203.0" promptText="请输入验证码" style="-fx-background-color: rgb(41,47,76); -fx-border-color: rgb(141,141,141); -fx-border-width: 0 0 3 0; -fx-text-fill: white;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>

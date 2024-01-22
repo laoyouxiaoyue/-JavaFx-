@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="688.0" prefWidth="882.0" style="-fx-background-color: rgb(27,34,55);" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxtest.RegisterController">
+   <children>
+      <TextField fx:id="YongHuMing" layoutX="432.0" layoutY="121.0" prefHeight="43.0" prefWidth="333.0" promptText="用户名" style="-fx-background-color: rgb(41,47,76); -fx-text-fill: white;">
+         <tooltip>
+            <Tooltip text="用户名由3-15个字符组成" />
+         </tooltip></TextField>
+      <TextField fx:id="Telephone" layoutX="432.0" layoutY="367.0" prefHeight="43.0" prefWidth="333.0" promptText="手机号码" style="-fx-background-color: rgb(41,47,76); -fx-text-fill: white;">
+         <tooltip>
+            <Tooltip text="请输入合法的手机号码格式" />
+         </tooltip></TextField>
+      <TextField fx:id="Email" layoutX="432.0" layoutY="433.0" prefHeight="43.0" prefWidth="333.0" promptText="电子邮箱" style="-fx-background-color: rgb(41,47,76); -fx-text-fill: white;">
+         <tooltip>
+            <Tooltip text="请输入合法的邮箱格式" />
+         </tooltip></TextField>
+      <Button fx:id="submit" layoutX="407.0" layoutY="555.0" mnemonicParsing="false" onAction="#OnSubmit" prefHeight="62.0" prefWidth="225.0" style="-fx-background-color: rgb(0,112,255); -fx-backgroune-radius: 50;" text="注册" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font></Button>
+      <Button fx:id="reset" layoutX="656.0" layoutY="555.0" mnemonicParsing="false" onAction="#OnReset" prefHeight="62.0" prefWidth="123.0" style="-fx-background-color: rgb(41,47,76);" text="重置" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font></Button>
+      <ImageView fitHeight="62.0" fitWidth="123.0" layoutX="541.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SuCai/注册logo.png" />
+         </image>
+      </ImageView>
+      <DatePicker fx:id="Birth" layoutX="432.0" layoutY="304.0" prefHeight="43.0" prefWidth="333.0" promptText="出生日期" style="-fx-background-color: rgb(41,47,76) rgb(41,47,76); -fx-border-color: rgb(41,47,76) rgb(41,47,76); -fx-text-fill: white;">
+         <tooltip>
+            <Tooltip text="在此处输入出生日期" />
+         </tooltip></DatePicker>
+      <Text fx:id="information1" fill="#f80202" layoutX="765.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="103.0" />
+      <Text fx:id="information2" fill="#f50202" layoutX="765.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="88.0" />
+      <Text fx:id="information3" fill="RED" layoutX="765.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="88.0" />
+      <Text fx:id="information4" fill="RED" layoutX="765.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="103.0" />
+      <Text fx:id="information5" fill="RED" layoutX="765.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="103.0" />
+      <Text fx:id="information6" fill="RED" layoutX="765.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="103.0" />
+      <PasswordField fx:id="MiMa" layoutX="432.0" layoutY="182.0" prefHeight="43.0" prefWidth="333.0" promptText="密码" style="-fx-background-color: rgb(41,47,76); -fx-text-fill: white;">
+         <tooltip>
+            <Tooltip text="密码由3-15个字符组成" />
+         </tooltip>
+      </PasswordField>
+      <PasswordField fx:id="ChongFuMiMa" layoutX="432.0" layoutY="242.0" prefHeight="43.0" prefWidth="333.0" promptText="重复密码" style="-fx-background-color: rgb(41,47,76); -fx-text-fill: white;">
+         <tooltip>
+            <Tooltip text="与之前密码相同" />
+         </tooltip>
+      </PasswordField>
+      <TextField fx:id="KaMi" layoutX="432.0" layoutY="496.0" prefHeight="43.0" prefWidth="333.0" promptText="邀请码(选填)" style="-fx-background-color: rgb(41,47,76); -fx-text-fill: white;" />
+      <ImageView fitHeight="308.0" fitWidth="381.0" layoutX="35.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SuCai/设备设置.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

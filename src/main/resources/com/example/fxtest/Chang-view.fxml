@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="538.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxtest.ChangController">
+   <children>
+      <TextField fx:id="Sno" layoutX="369.0" layoutY="119.0" prefHeight="23.0" prefWidth="186.0" />
+      <Text layoutX="305.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学号" />
+      <TextField fx:id="Sname" layoutX="369.0" layoutY="162.0" prefHeight="23.0" prefWidth="186.0" />
+      <Text layoutX="305.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="姓名" />
+      <TextField fx:id="Sadress" layoutX="369.0" layoutY="366.0" prefHeight="23.0" prefWidth="186.0" />
+      <Text layoutX="305.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="籍贯" />
+      <Button fx:id="Submit" layoutX="396.0" layoutY="426.0" mnemonicParsing="false" onAction="#OnSubmit" prefHeight="23.0" prefWidth="59.0" style="-fx-background-color: #f4f4f4;" />
+      <Text layoutX="305.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="性别" />
+      <Text layoutX="293.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="班级编号" />
+      <Text layoutX="305.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="生日" />
+      <Text layoutX="281.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="所属院系编号" />
+      <DatePicker fx:id="Sbirth" layoutX="369.0" layoutY="324.0" prefHeight="23.0" prefWidth="186.0" />
+      <ImageView fx:id="show" fitHeight="56.0" fitWidth="186.0" layoutX="329.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SuCai/修改学生.png" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="maleButton" layoutX="372.0" layoutY="204.0" mnemonicParsing="false" text="男" />
+      <RadioButton fx:id="femaleButton" layoutX="522.0" layoutY="204.0" mnemonicParsing="false" text="女" />
+      <ComboBox fx:id="Sclass" layoutX="369.0" layoutY="241.0" prefHeight="23.0" prefWidth="186.0" />
+      <ComboBox fx:id="Sdepartment" layoutX="372.0" layoutY="285.0" prefHeight="23.0" prefWidth="186.0" />
+      <ImageView fitHeight="257.0" fitWidth="302.0" layoutX="14.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SuCai/设备设置.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
