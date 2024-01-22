@@ -4,7 +4,7 @@
 
 登录页面
 
-![img]([D:\编译器\Java\FxTest\image\clip_image002.jpg](https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/clip_image002.jpg))
+![img](https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/clip_image002.jpg)
 
  
 
