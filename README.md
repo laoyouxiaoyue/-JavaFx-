@@ -22,4 +22,4 @@
 
 ​                    导出样式
 
-![image-20240122175906768](https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/image-20240122175906768.png.jpg)
+![image-20240122175906768](https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/image-20240122180031048.png)
