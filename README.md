@@ -18,7 +18,7 @@
 
 导出功能
 
-![image-20240122180031048](https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/image-20240122180031048.jpg)
+![image-20240122180031048](https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/image-20240122175906768.png)
 
 ​                    导出样式
 
