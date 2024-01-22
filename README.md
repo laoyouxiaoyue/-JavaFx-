@@ -10,11 +10,11 @@
 
  主页面布局
 
-![img](D:\编译器\Java\FxTest\image\clip_image004.jpg)
+![img](https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/clip_image004.jpg)
 
 各新增页面
 
-![img](D:\编译器\Java\FxTest\image\clip_image006.jpg)
+![img](https://github.com/laoyouxiaoyue/-JavaFx-/blob/main/image/clip_image006.jpg)
 
 导出功能
 
